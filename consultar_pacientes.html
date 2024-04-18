@@ -1,0 +1,68 @@
+User
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-consultar_paciente.css">
+    <title>Consultar Pacientes - Portal Med</title>
+</head>
+
+<body>
+    <div id = "menu-lateral">
+        <nav>
+            <span>
+                PORTAL MED
+            </span>
+            <img src="./assets/imagem_atendente.png" alt="Imagem do Atendente" class="imagem-atendente">
+            <a>Mariana Bittencourt</a>
+            <a>Atendente</a>
+            <ul>
+                <button><li><a href="./index.html">Início</a></li></button>
+                <button><li><a href="./consultas.html">Consultas</a></li></button>
+                <button><li><a href="./cadastro_paciente.html">Cadastrar Pacientes</a></li></button>
+                <button><li><a href="./cadastro_medico.html">Cadastrar Médicos</a></li></button>
+                <button><li><a href="login.html">Sair</a></li></button>
+            </ul>
+        </nav>
+    </div>
+</header>
+    
+<main>
+    <div class="section-wrapper">
+        <form id="search-form">
+            <div class="filter-section">
+                <h1>Consultar pacientes</h1>
+                <div class="filter-container">
+                    <div class="filter-element">
+                        <label for="searchName">Nome:</label>
+                        <input type="text" id="searchName" name="searchName">
+                    </div>
+                    <div class="filter-element">
+                        <label for="searchBirthDate">Data de Nascimento:</label>
+                        <input type="text" id="searchBirthDate" name="searchBirthDate">
+                    </div>
+                    <div class="filter-element">
+                        <label for="searchId">ID:</label>
+                        <input type="text" id="searchId" name="searchId">
+                    </div>
+                    <div class="button-container">
+                        <a href="./informacao_id.html">
+                            <button type="button" id="searchButton">Buscar</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form> 
+        
+    </div>
+</main>
+</main>
+    <footer>
+        <footer>
+            <img src="assets/imagem_logo.png" alt="Logo do Aplicativo" class="logo-footer">
+        </footer>
+    </footer>
+    <script src="consulta_pacientes.js"></script>
+</body>
+</html>
